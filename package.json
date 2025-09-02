@@ -1,0 +1,36 @@
+{
+  "name": "adamsprojectbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@napi-rs/canvas": "^0.1.77",
+    "adm-zip": "^0.5.16",
+    "axios": "^1.11.0",
+    "bestzip": "^2.2.1",
+    "dotenv": "^17.2.1",
+    "firebase": "^12.0.0",
+    "firebase-admin": "^13.4.0",
+    "form-data": "^4.0.4",
+    "fs-extra": "^11.3.0",
+    "mime-types": "^3.0.1",
+    "node-fetch": "^2.7.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "telegraf": "^4.16.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adams181/AdamsProjectBot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/adams181/AdamsProjectBot/issues"
+  },
+  "homepage": "https://github.com/adams181/AdamsProjectBot#readme"
+}
