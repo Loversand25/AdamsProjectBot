@@ -13,9 +13,9 @@ const {
   getWalletHistory
 } = require('./firebase');
 
-const bot = new TelegramBot('7018583070:AAFWtNov9SO504Xci2p7ImwgoUWv7-O36k0', { polling: true });
+const bot = new TelegramBot{ polling: true });
 
-const ADMIN_ID = '7782756234';
+const ADMIN_ID = 
 
 bot.onText(/\/start/, async (msg) => {
   const user = msg.from;
